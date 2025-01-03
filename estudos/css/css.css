@@ -1,0 +1,31 @@
+/* Seletores
+    - type - element - tag
+    - id
+    - class
+    - atributo
+    - universal */
+
+
+* {
+    /*Seletor UNIVERSAL*/
+}
+
+p {
+    /*Seletor de tag*/
+}
+
+#id {
+    /*Seletor de id*/
+}
+
+.class {
+    /*Seletor de classe*/
+}
+
+[title] {
+    /*Seletor de atributo*/
+}
+
+[title="t"] {
+    /*Seletor de atributo específico*/
+}
