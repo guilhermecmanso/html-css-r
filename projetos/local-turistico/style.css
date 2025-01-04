@@ -5,4 +5,110 @@
 
 :root {
     font-family: "Open Sans", serif;
+    font-size: 16px;
+    color: #1B1B1B;
+}
+
+body {
+    max-width: 1120px;
+    background-color: #F5F4F0;
+    padding: 88px 80px;
+    margin: auto;
+}
+
+
+
+.fotos {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 28px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+img {
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 28px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 20px 0px 4px 0px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #E1624F;
+    font-variant-caps: all-small-caps;
+    margin-bottom: 4px;
+}
+
+ul {
+    font-size: 16px;
+    padding-left: 24px;
+    font-weight: bold;
+}
+
+li::marker {
+    color: black;
+    font-size: 10px;;
+}
+
+ul .hist {
+    color: #0C51A7;
+}
+
+ul .couple {
+    color: #591B98;
+}
+
+ul .family {
+    color: #E5245E;
+}
+ul .budget {
+    color: #E95E10;
+    margin-bottom: 40px;
+}
+
+#busan p {
+    font-style: italic;
+    margin: 24px auto 40px;
+    text-align: center;
+}
+
+#discover {
+    margin: 64px auto 64px;
+}
+
+
+
+#yong .fotos {
+    object-position: 50% 85%;
+    object-fit: cover;
+}
+
+main > p {
+    text-align: center;
+    margin: 40px 0px 65px 0px;
+}
+
+hr {
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+footer img {
+    width: 18px;
+    vertical-align: sub;
+}
+
+footer {
+    text-align: center;
 }
