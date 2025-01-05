@@ -1,0 +1,79 @@
+:root {
+    font-family: "Alice", serif;
+    font-size: 16px;
+    --primary-fontc: #291B1A;
+    --second-fontc: #573A37;
+    --footer-color: #F0E8C2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/bg-image.jpg);
+    background-color: #573824;
+    background-size: cover;
+}
+
+#page {
+    background-color: #F0E8C2;
+    max-width: 760px;
+    padding: 24px;
+    border-radius: 24px;
+    margin: 48px auto 28px auto;
+}
+
+#page img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+main {
+    padding: 24px;
+    
+}
+
+h1, h2 {
+    color: var(--primary-fontc);
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+}
+h2, p {
+    line-height: 150%;
+    font-weight: normal;
+}
+
+p, ul {
+    color: var(--second-fontc);
+}
+
+#about p:nth-child(3) {
+    margin-top: 12px;
+
+}
+
+#ingredients {
+    margin: 24px 0px 24px;
+}
+
+ul {
+    padding-left: 26px;
+    line-height: 150%;
+}
+
+footer {
+    color: var(--footer-color);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
