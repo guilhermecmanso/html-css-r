@@ -1,0 +1,131 @@
+:root {
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+    --border-primary: #D9D9D9;
+}
+
+* {
+    font-family: "Open Sans", serif;
+    color: #1B1B1B;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1120px;
+    background-color: #F5F4F0;
+    margin: auto;
+    padding: 88px 80px 65px;
+}
+
+img {
+    border-radius: 28px;
+}
+
+hr {
+    border-color: #d9d9d93a;
+}
+
+.ul {
+    font-weight: bold;
+}
+
+ul {
+    font-weight: bold;
+    margin-bottom: 48px;
+    padding-left: 20px;
+    
+}
+
+.history {
+    color: var(--accent-blue);
+}
+
+.couple {
+    color: var(--accent-purple);
+}
+
+.family {
+    color: var(--accent-pink);
+}
+
+.budget {
+    color: var(--accent-orange);
+}
+
+li::marker {
+    color: #1B1B1B;
+    font-size: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.temples {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+/* #INTRO */
+
+
+.heading {
+    color: var(--text-headline);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#intro img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 8px;
+}
+
+#subtitle {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* #DISCOVER */
+
+#discover {
+    padding: 64px 0px;
+}
+
+#discover h2 {
+    margin: 2px auto 8px auto;
+}
+
+#yongdusan {
+    object-position: 0% 85%;
+}
+
+main > p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 64px;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+footer img {
+    vertical-align: middle;
+}
