@@ -19,7 +19,8 @@
 
 body {
     background-color: var(--bg-color);
-
+    max-width: 1280px;
+    margin: auto;
 }
 
 nav a {
@@ -46,9 +47,16 @@ h1 {
     font-weight: bold;
 }
 
+#about {
+    display: flex;
+    background-color: var(--surf-color);
+    flex-basis: auto;
+}
+
 #about p {
     font-size: 14px;
     line-height: 170%;
+    
 }
 
 
