@@ -24,7 +24,8 @@ header .container {
     margin-bottom: 8px;
 }
 
-#profile p {
+#profile > img {
+    height: 176px;
 }
 
 #info {
