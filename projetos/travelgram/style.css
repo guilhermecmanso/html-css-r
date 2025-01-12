@@ -56,9 +56,11 @@ h1 {
 #about p {
     font-size: 14px;
     line-height: 170%;
-    
 }
-
+#about :nth-child(3) {
+    display: flex;
+    width: 384px;
+}
 
 
 main {
