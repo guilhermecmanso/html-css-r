@@ -54,9 +54,11 @@ h1 {
 }
 
 #about p {
+    display: flex;
     font-size: 14px;
     line-height: 170%;
 }
+
 #about :nth-child(3) {
     display: flex;
     width: 384px;
@@ -76,4 +78,15 @@ main {
 
 .mainimg {
     width: 286px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+ul img {
+    width: 24px;
+    height: 24px;
 }
