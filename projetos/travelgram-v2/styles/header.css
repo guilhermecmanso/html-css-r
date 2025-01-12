@@ -26,6 +26,9 @@ header .container {
 
 #profile > img {
     height: 176px;
+    width: 176px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #info {
